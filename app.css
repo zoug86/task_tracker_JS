@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+  }
+
+  .form{
+    margin-top: 40px;
+  }
+
+  .form-input{
+      margin: 20px 0;
+  }
+
+  .form-input label{
+    display: block;
+  }
+
+  .form-input input{
+      width: 100%;
+      height: 40px;
+      margin: 5px;
+      padding: 3px 10px;
+      font-size: 17px;
+  }
+
+  .form-input-check{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .form-input-check input{
+      height: 20px;
+      flex: 2;
+  }
+
+  .save-btn{
+     width: 100%;
+      height: 40px;
+      color: #fff;
+      background-color: #000;
+      border: none;
+      border-radius:5px;
+      font-size: 17px;
+      cursor: pointer;
+  }
+
+  .save-btn:focus{
+      outline: noce;
+  }
+
+  .save-btn:active{
+    background-color: rgb(73, 76, 78);
+  }
+
+  .header{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .add-task-btn{
+    width: 25%;
+    height: 50px;
+    background: rgb(39, 172, 39);
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+  }
+
+  .tasksList{
+      margin-top: 40px;
+      list-style-type: none;
+  }
+
+  .task{
+      background-color: rgb(241, 236, 236);
+      padding: 15px;
+      margin-bottom: 5px;
+      
+  }
+
+  .border-left{
+    border-left: 3px solid green;
+  }
+
+  .task-title{
+      font-size: 25px;
+      margin-bottom:10px;
+  }
+
+  .task-date{
+      font-size: 17px;
+  }
+
+  .close{
+      background-color: red;
+  }
+
+  .small-container{
+     display: flex;
+     justify-content: space-between;
+  }
+
+  .fas{
+      color: red;
+  }

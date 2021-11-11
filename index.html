@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Task Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class='header'>
+            <h1>Task Tracker</h1>
+            <button class='add-task-btn'>Add Task</button>
+        </header>
+
+        <form action="" class='form' hidden>
+            <div class='form-input'>
+                <label for="task">Task</label>
+                <input type="text" id='task' placeholder="Add Task" class='task-input'>
+            </div>
+            <div class='form-input'>
+                <label for="day">Day & Time</label>
+                <input type="text" id='day' placeholder="Add Day and Time" class='date'>
+            </div>
+            <div class='form-input form-input-check'>
+                <label for="reminder">Set Reminder</label>
+                <input type="checkbox" id='reminder' class='reminder'>
+            </div>
+            <button class='save-btn'>Save Task</button>
+        </form>
+        <ul class='tasksList'>
+
+        </ul>
+    </div>
+    <script src='app.js'></script>
+</body>
+
+</html>
