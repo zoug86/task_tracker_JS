@@ -1,6 +1,3 @@
-const api = require('./api.js')
-console.log(API_KEY)
-
 const form = document.querySelector('.form');
 const taskInput = document.querySelector('.task-input');
 const dateInput = document.querySelector('.date');
